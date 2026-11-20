@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEMPLATE | PLANTeeShirts</title>
+    
+    <!-- Bootstrap CSS-->
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+    crossorigin="anonymous">
+    
+    <!-- External CSS-->
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+    
+<body class="d-flex flex-column min-vh-100">
+
+<!-- NAVBAR -->
+
+<nav class="navbar md:navbar-expand bg-1 py-1 border-bottom">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+        <img src="images/planteeshirts-logoB.png" alt="PLANTeeShirts Logo" height="80" class="d-inline-block align-text-top">
+        </a>
+    
+        <button class="btn-icon navbar-toggler" type="button"
+        data-bs-toggle="drawer" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle 
+        navigation">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        
+        <dialog class="drawer drawer-end" tabindex="-1" id="mainNav" 
+        aria-labelledby="mainNavLabel">
+            <div class="drawer-header">
+            <h5 class="drawer-title" id="mainNavLabel">MENU</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="drawer"
+            aria-label="Close"></button>
+            </div>
+            
+            <div class="drawer-body">
+            <ul class="nav navbar-nav md:ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page"
+            href="index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#shop">SHOP</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#about">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+            </ul>
+            </div>
+        </dialog>
+    </div>
+</nav>
+ 
+<!-- HERO -->
+
+<header class="bg-2 py-12 text-center">
+<div class="container">
+<h1 class="text-4xl fw-bold mb-5">Wear your heart on your sleeves.</h1>
+<h1 class="text-4xl fw-bold mb-5">Wear your leaves on your shirts.</h1>
+
+<p class="text-lg text-white mb-9">
+(Add text here? Or delete)
+</p>
+
+<div class="hstack gap-2 justify-content-center">
+<a href="#shop" class="btn-solid theme-primary btn-lg">SHOP NOW</a>
+</div>
+</div>
+</header>
+
+<!-- SHOP ROW & ANCHOR -->
+
+<main class="container py-12">
+<div class="row g-7 mb-12" id="shop">
+
+ <!-- SHOP CARD 1 -->
+
+<div class="md:col-4">
+<div class="card">
+<div class="card-body text-center">
+
+<img src="images/product1front.png" alt="Product-1 Pic" class="d-inline-block align-text-top">
+
+<p class="fg-2 mb-0">Shirt 1 Name</p>
+<h5>Price 1</h5>
+
+<a href="product1.html" class="btn-solid d-block w-100">VIEW</a>
+</div>
+</div>
+</div>
+
+<!-- SHOP CARD 2 -->
+
+<div class="md:col-4">
+<div class="card">
+<div class="card-body text-center">
+    
+<img src="images/product2front.png" alt="Product-2 Pic" class="d-inline-block align-text-top">
+
+<p class="fg-2 mb-0">Shirt 2 Name</p>
+<h5>Price 2</h5>
+
+<a href="product2.html" class="btn-solid d-block w-100">VIEW</a>
+</div>
+</div>
+</div>
+
+<!-- SHOP CARD 3 -->
+ 
+<div class="md:col-4">
+<div class="card">
+<div class="card-body text-center">
+    
+<img src="images/product3front.png" alt="Product-3 Pic" class="d-inline-block align-text-top">
+
+<p class="fg-2 mb-0">Shirt 3 Name</p>
+<h5>Price 3</h5>
+
+<a href="product3.html" class="btn-solid d-block w-100">VIEW</a>
+</div>
+</div>
+</div>
+
+<!-- ABOUT ROW & ANCHOR -->
+
+<div class="row g-7 align-items-center" id="about">
+<div class="md:col-12">
+<h1 class="text-4xl fw-bold mb-5">About</h1>
+<p>
+</p>
+<p class="fg-2">Founded in 2026, a pop up shop catering for the plant keeping community. We deliver 100% organic, ethically sourced apparel to show your love for the hobby. Represent! Take your beloved plants with you wherever you go.
+</p>
+</div>
+</div>
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-1 border-top py-4 mt-auto" id="contact">
+    <div class="container d-flex flex-column md:flex-row md:justify-content-center gap-4 ">
+      <span class="nav-link">&copy; 2026 PLANTeeShirts</span>
+      <a href="privacy.html" class="nav-link">PRIVACY POLICY</a>
+      <a href="terms.html" class="nav-link">TERMS</a>
+    </div>
+</footer>
+
+<!-- Bootstrap JS-->
+
+    <script type="module"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+    crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
